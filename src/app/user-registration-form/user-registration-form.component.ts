@@ -8,7 +8,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
   styleUrls: ['./user-registration-form.component.scss']
 })
 export class UserRegistrationFormComponent implements OnInit {
-  @Input() userData ={ Username: '', Password: '', Email: '', Birthday: '' };
+  @Input() userData ={ username: '', password: '', email: '', Birthdate: '' };
   constructor(
     public fetchApiData: UserRegistrationService,
     public dialogRef: MatDialogRef<UserRegistrationFormComponent>,
